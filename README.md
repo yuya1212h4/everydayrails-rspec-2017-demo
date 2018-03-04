@@ -26,3 +26,9 @@ more about Git, I recommend the free resources [Git Immersion] or [Try Git].
 [Everyday Rails Testing with RSpec]: https://leanpub.com/everydayrailsrspec
 [Git Immersion]: http://gitimmersion.com/
 [Try Git]: http://www.codeschool.com/courses/try-git
+
+
+# 03-models
+- 有効な属性で初期化された場合は、モデルの状態が有効（valid）になっていること
+- バリデーションを失敗させるデータであれば、モデルの状態が有効になっていないこと
+- クラスメソッドとインスタンスメソッドが期待通りに動作すること
