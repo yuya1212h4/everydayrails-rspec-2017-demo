@@ -32,3 +32,8 @@ more about Git, I recommend the free resources [Git Immersion] or [Try Git].
 - 有効な属性で初期化された場合は、モデルの状態が有効（valid）になっていること
 - バリデーションを失敗させるデータであれば、モデルの状態が有効になっていないこと
 - クラスメソッドとインスタンスメソッドが期待通りに動作すること
+
+期待する結果をまとめて記述（describe）している
+example一つにつき、結果を一つだけ期待している
+どのexampleも明示的である
+各exampleの説明は動詞で始まっている、shouldではない
