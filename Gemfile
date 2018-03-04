@@ -18,6 +18,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.6.0'
   gem 'factory_girl_rails', '~> 4.8.0'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'guard-rspec'
 end
 
 group :development do
@@ -47,5 +48,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'devise'
-gem 'paperclip'
+gem 'paperclip', '~> 3.1.4'
 gem 'geocoder'
