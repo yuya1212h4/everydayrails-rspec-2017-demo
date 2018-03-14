@@ -48,6 +48,7 @@ RSpec.describe User, type: :model do
       expect(user.errors[:email]).to include("has already been taken")
     end
 
+    # nameメソッドのテスト
     it "ユーザーのフルネームを文字列として返すこと" do
       user = User.create(
         first_name: "Aaron",
