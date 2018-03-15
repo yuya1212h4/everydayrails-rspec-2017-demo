@@ -37,3 +37,7 @@ more about Git, I recommend the free resources [Git Immersion] or [Try Git].
 example一つにつき、結果を一つだけ期待している
 どのexampleも明示的である
 各exampleの説明は動詞で始まっている、shouldではない
+
+- 起きて欲しいこととと、起きて欲しくないことの両方をテストする
+- 境界値のテストを行う
+- 可読性を上げるために、スペックを整理する
