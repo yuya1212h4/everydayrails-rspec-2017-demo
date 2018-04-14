@@ -41,3 +41,22 @@ example一つにつき、結果を一つだけ期待している
 - 起きて欲しいこととと、起きて欲しくないことの両方をテストする
 - 境界値のテストを行う
 - 可読性を上げるために、スペックを整理する
+
+
+
+<div id="node">
+ <a href="http://nodejs.org">click here!</a>
+</div>
+<div id="rails">
+ <a href="http://rubyonrails.org">click here!</a>
+</div>
+
+within "#rails" do
+ click_link "click here!"
+end
+
+language = find_field("Programminglanguage").value
+expect(language).to eq "Ruby"
+
+find("#fine_print").find("#disclaimer").click
+find_button("Publish").click
